@@ -23,4 +23,4 @@ class CompraSerializer(ModelSerializer):
 
     class Meta:
         model = Compra
-        fields = ('id', 'usuario_name', 'usuario_email', 'status', 'itens')
+        fields = ('id', 'usuario_name', 'usuario_email', 'status', 'total', 'itens')
