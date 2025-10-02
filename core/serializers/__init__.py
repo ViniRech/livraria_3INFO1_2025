@@ -11,4 +11,9 @@ from .compra import (
     ItensCompraSerializer, 
     
 )
-from .livro import LivroSerializer, LivroListSerializer, LivroRetrieveSerializer
+from .livro import (
+    LivroAlterarPrecoSerializer,
+    LivroListSerializer,
+    LivroRetrieveSerializer,
+    LivroSerializer,
+)
