@@ -12,6 +12,7 @@ from .compra import (
     
 )
 from .livro import (
+    LivroAjustarEstoqueSerializer,
     LivroAlterarPrecoSerializer,
     LivroListSerializer,
     LivroMaisVendidoSerializer,
